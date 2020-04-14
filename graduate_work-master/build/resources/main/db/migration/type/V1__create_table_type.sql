@@ -1,0 +1,5 @@
+CREATE TABLE type
+(
+    id    SERIAL PRIMARY KEY,
+    title TEXT NOT NULL UNIQUE
+);
